@@ -277,27 +277,6 @@ body{
 
      /* CURRICULO */
 
-    /* .apresentacao__conteudo__titulo__curriculo {
-    font-size: 0.90rem;
-    font-family: var(--fonte-primaria);
-    width: auto;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    text-align: justify;
-    }
-    .apresentacao__conteudo__subtitulo__curriculo{
-        text-align: center;
-    }
-
-    .apresentacao__conteudo__texto__curriculo {
-        font-size: 1.1rem;
-        font-family: var(--fonte-secundaria);
-        align-items: center;
-        width: auto;
-        text-align: center;
-    } */
-
     .cabecalho__curriculo{
         padding: 1rem;
         justify-content:center;
@@ -310,19 +289,25 @@ body{
        
    }
 
-    /* .cabecalho__menu__link__curriculo{
-       font-family: var(--fonte-secundaria);
-       font-size: 1rem;
-       font-weight: 600;
-       color: var(--cor-terciaria);
-       text-decoration: none;
-   }*/
-
     .cabecalho__menu__link__curriculo{
         font-size: 1.1rem;
     }
 
     .apresentacao__links__curriculo{
+        text-align: center;
+    }
+
+    .rodape__curriculo{
+        color: var(--cor-primaria);
+        background-color: var(--cor-terciaria);
+        padding: 24px;
+        text-align: center;
+        font-family: var(--fonte-secundaria);
+        font-size: 1.5rem;
+        font-weight: 400;
+        bottom: 0;
+        position: fixed;
+        width: 100%;
         text-align: center;
     }
 
